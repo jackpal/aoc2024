@@ -2,6 +2,8 @@
 
 Advent of code 2024
 
+## Inputs are stored in a submodule
+
 This repository uses a private subrepository for user inputs.
 
 If you're me, you can check out both repositiries at once this way:
@@ -12,5 +14,20 @@ If it’s already checked out, run
 
     git submodule init && git submodule update
 
-Otherwise, create a directory `input` put your input for day 1 in `input/1.txt`, and so on.
+Otherwise, create a directory `input` put your input for day 1 in `input/1`, and so on.
+
+When your solution’s done it now takes two steps to upload to GitHub. First, commit the input file in your submodule:
+
+    cd input
+    git add 2023/1
+    git commit -m "2023 day 1 input file"
+    git push origin main
+
+Then commit the code and other files in your main repository, as well as the pointer to the new head commit of your input repository:
+
+    cd ..
+    git add input
+    git add 2023/day1/*
+    git commit -m "Solution to 2023 day 1"
+    git push origin main
 
