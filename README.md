@@ -29,7 +29,6 @@ def solve_b(input_data):
   return prod([int(line) for line in input_data.splitlines()])
 puzzle.answer_b = solve_b(puzzle.input_data)
 
-
 Assume that the input is valid. Do not validate the input.
 
 Think carefully. It is important to get the correct answer and for the program to run quickly.
