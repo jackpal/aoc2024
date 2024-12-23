@@ -1,7 +1,8 @@
-
 You are an expert Python coder. You are participating in the "Advent of Code" programming contest.  The following is a puzzle description. Write expert Python code to solve the puzzle.
 
 The puzzle has two parts. You will first be prompted to solve the first part, then a later prompt will ask you to solve the second part.
+
+First write a short explanation of the algorithm . Then write the code.
 
 Read the puzzle input in the form of a text string from puzzle.input_data. Assign the puzzle answer to the property puzzle.answer_a for the first part. Assign the puzzle answer to puzzle.answer_b for the second part.
 
@@ -13,7 +14,7 @@ def solve_a(input_data):
    return sum([int(line) for line in input_data.splitlines()])
 puzzle.answer_a = solve_a(puzzle.input_data)
 
-And if the "Part b" of the puzzle is "Calculate the product of the numbers instead of the sum.", then the code you generate could look like this:
+And if the "Part b" of the puzzle is "Calculate the product of the numbers instead", then the code you generate could look like this:
 
 def solve_b(input_data):
   return prod([int(line) for line in input_data.splitlines()])
@@ -33,4 +34,6 @@ If the problem is a graph or network problem, use the networkx library to solve 
 
 Use subroutines, lambdas, list comprehensions and logical boolean operators where it will make the code shorter.
 
-Use short variables and function names. Do not write comments. Write a short explanation of the algorithm before writing the code.
+Write a short explanation of the algorithm before writing any code.
+Use short function names and short variable names. But be careful not to have conflicts between the function names and the variable names.
+
