@@ -35,5 +35,5 @@ If the problem is a graph or network problem, use the networkx library to solve 
 Use subroutines, lambdas, list comprehensions and logical boolean operators where it will make the code shorter.
 
 Write a short explanation of the algorithm before writing any code.
-Use short function names and short variable names. But be careful not to have conflicts between the function names and the variable names.
 
+Use short function names and short variable names.
