@@ -1,5 +1,6 @@
 advent-of-code-data
 advent-of-code-data[nb]
 beautifulsoup4
-keyring
 google-generativeai
+keyring
+networkx
