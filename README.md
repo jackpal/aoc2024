@@ -6,6 +6,20 @@ This repository uses Python Jupyter notebooks, one for each day of the contest. 
 
 Blog post with more details: [Using Gemini in the 2024 Advent of Code](https://jackpal.github.io/2024/12/24/Advent_of_Code_2024.html)
 
+| Result                                  | Percent |
+| --------------------------------------- | ------: |
+| Solved puzzle without human interaction |     60% |
+| Solved puzzle with simple debugging     |     75% |
+| Solved puzzle when given strong hint    |     90% |
+| Failed to solve puzzle                  |     10% |
+
+| Category | Count | Zero-shot | With assistance | With hint | Failed |
+| -------- | ----: | --------: | --------------: | --------: | -----: |
+| Part 1   |    25 |        18 |               3 |         2 |      1 |
+| Part 2   |    24 |        11 |               4 |         5 |      4 |
+| Total    |    49 |        29 |               7 |         7 |      5 |
+
+
 
 ## Preparation
 
