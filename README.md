@@ -2,6 +2,11 @@
 
 Advent of code 2024
 
+This repository uses Python Jupyter notebooks, one for each day of the contest. The notebooks contain solutions for each day's puzzle. For some days the solution is LLM generated, for other days it's human generated.
+
+Blog post with more details comming soon.
+
+
 ## Preparation
 
 Install [advent-of-code-data](https://pypi.org/project/advent-of-code-data/)
