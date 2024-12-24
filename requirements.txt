@@ -2,5 +2,8 @@ advent-of-code-data
 advent-of-code-data[nb]
 beautifulsoup4
 google-generativeai
+jupyter
 keyring
+matplotlib
 networkx
+pygraphviz
