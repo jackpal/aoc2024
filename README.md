@@ -4,7 +4,7 @@ Advent of code 2024
 
 This repository uses Python Jupyter notebooks, one for each day of the contest. The notebooks contain solutions for each day's puzzle. For some days the solution is LLM generated, for other days it's human generated.
 
-Blog post with more details comming soon.
+Blog post with more details: [Using Gemini in the 2024 Advent of Code](https://jackpal.github.io/2024/12/24/Advent_of_Code_2024.html)
 
 
 ## Preparation
