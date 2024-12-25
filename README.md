@@ -64,4 +64,4 @@ Write a brief explanation of the algorithm, then write the python code without
 comments or explanation. Use short variable names. Use subroutines, lambdas,
 list comprehensions and logical boolean operators where it will make the code
 shorter.
-```
+````
